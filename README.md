@@ -2,7 +2,7 @@
 create-ts-lib is a cli to create typescript node template.
 # Installation
 ``
-npm i craete-ts-lib -g
+npm i craete-ts-lib-temp -g
 ``
 # Usage
 ``
