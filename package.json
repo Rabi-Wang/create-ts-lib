@@ -16,7 +16,7 @@
     "start": "node --experimental-specifier-resolution=node --loader ts-node/esm src/index.ts",
     "dev": "nodemon --watch src/** --ext ts,json --exec pnpm run start",
     "watch": "tsc -w -p tsconfig.json",
-    "cp": "copyfiles -a ./template/**/* lib/",
+    "cp": "copyfiles -a ./template/**/* ./bin/* lib/",
     "prettier:check": "yarn prettier --check 'src/**/*.ts'",
     "prettier:fix": "yarn prettier --write 'src/**/*.ts'",
     "test": "jest --verbose",
