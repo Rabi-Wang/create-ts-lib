@@ -1,5 +1,5 @@
 {
-  "name": "create-ts-lib",
+  "name": "create-ts-lib-temp",
   "version": "0.0.1",
   "description": "create typescript library cli",
   "main": "lib/index.js",
@@ -8,6 +8,10 @@
     "lib",
     "README.md"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "type": "module",
   "scripts": {
     "clean": "rimraf lib",
